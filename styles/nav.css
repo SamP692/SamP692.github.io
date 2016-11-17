@@ -1,0 +1,21 @@
+nav {
+  text-align: right;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: .8rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: white;
+  border-bottom: 1px solid rgba(0,0,0,0);
+  border-top: 1px solid rgba(0,0,0,0);
+  line-height: 1rem;
+}
+
+nav a:hover {
+  border-bottom: 1px solid rgb(149,165,166);
+  border-top: 1px solid rgb(149,165,166);
+}
