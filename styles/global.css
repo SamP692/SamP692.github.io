@@ -2,3 +2,24 @@
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  font-size: 6rem;
+  line-height: 0;
+  color: white;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: white;
+  line-height: 0;
+}
+
+section {
+  width: 100%;
+  background-color: white;
+}
+
+section:nth-child(even) {
+  background-color: rgba(236, 240, 241,1.0);
+}
