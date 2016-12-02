@@ -1,0 +1,14 @@
+#about {
+  margin-top: 18%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#about div {
+  width: 25%;
+  top: 0;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: inline-block;
+  vertical-align: top;
+}
