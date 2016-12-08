@@ -1,0 +1,21 @@
+#contact h3 {
+  margin-bottom: 3%;
+}
+
+#contact p {
+  line-height: 3rem;
+}
+
+#contact hr {
+  margin: 0 auto;
+  width: 15%;
+}
+
+#contact div {
+  margin-top: 2%;
+}
+
+#contact .btn {
+  display: inline-block;
+  margin: auto 2% auto 2%;
+}

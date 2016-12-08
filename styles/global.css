@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 6rem;
   line-height: 0;
@@ -16,7 +21,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: 'Lobster Two', cursive;
   margin-bottom: .7rem;
 }
@@ -27,12 +32,35 @@ p {
   line-height: 1.5rem;
 }
 
+span {
+  font-weight: 700;
+}
+
 section {
   width: 100%;
   background-color: white;
   text-align: center;
+  padding: 2rem 0;
 }
 
 section:nth-child(even) {
   background-color: rgba(236, 240, 241,1.0);
+}
+
+.btn {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  margin-top: 6%;
+  line-height: 3rem;
+  width: 12%;
+  border: 2px solid black;
+  background-color: inherit;
+  color: black;
+}
+
+.btn:hover {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
 }
